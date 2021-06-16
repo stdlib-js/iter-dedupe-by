@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/iter-dedupe-by",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Create an iterator which removes consecutive values that resolve to the same value according to a provided function.",
   "license": "Apache-2.0",
   "author": {
