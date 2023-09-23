@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import iterDedupeBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-dedupe-by@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/iter-dedupe-by/tags). For example,
+
+```javascript
 import iterDedupeBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-dedupe-by@v0.1.0-esm/index.mjs';
 ```
 
@@ -198,7 +203,7 @@ var bool = it.next().done;
 
 import randi from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-discrete-uniform@esm/index.mjs';
 import iterDedupe from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-dedupe@esm/index.mjs';
-import iterDedupeBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-dedupe-by@v0.1.0-esm/index.mjs';
+import iterDedupeBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-dedupe-by@esm/index.mjs';
 
 function fcn( curr, sprev, dprev, i, acc ) {
     if ( curr < dprev ) {
