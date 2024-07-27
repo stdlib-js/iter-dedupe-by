@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import iterDedupeBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-dedupe-by@deno/mod.js';
+import iterDedupeBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-dedupe-by@v0.2.2-deno/mod.js';
 ```
 
 #### iterDedupeBy( iterator, \[limit,] fcn )
@@ -193,7 +193,7 @@ var bool = it.next().done;
 ```javascript
 import randi from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-discrete-uniform@deno/mod.js';
 import iterDedupe from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-dedupe@deno/mod.js';
-import iterDedupeBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-dedupe-by@deno/mod.js';
+import iterDedupeBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-dedupe-by@v0.2.2-deno/mod.js';
 
 function fcn( curr, sprev, dprev, i, acc ) {
     if ( curr < dprev ) {
